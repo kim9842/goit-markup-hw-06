@@ -302,14 +302,14 @@ color: #434455;
     display: flex;
     justify-content:space-between;
     align-items: center;
-    column-gap: 322px;
+    column-gap: 300px;
   }
   .page-nav{
     column-gap: 76px;
   }
   .contact-list{
     display:flex;
-    gap:40px;
+    gap: 40px;
   }
   .contact-link{
     display: block;
@@ -409,9 +409,9 @@ padding-bottom: 48px;
 
 /* =============    section 2  320      =================*/
 
-.benefits.{
+.benefits{
   padding-top:48px;
-  paddinh-bottom: 48px;
+  padding-bottom: 48px;
 }
 .benefits .container{
   max-width: 320px;
@@ -794,9 +794,6 @@ margin-bottom: 8px;
 /* ==========================section 4 1158=================== */
 
 @media screen and (min-width:1158px){
-.portfolio{
-  
-}
 .container-portfolio{
   max-width: 1158px;
   padding-left: 16px;
@@ -1128,11 +1125,6 @@ color: #fff;
   background: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-
-
-
 }
 
 
