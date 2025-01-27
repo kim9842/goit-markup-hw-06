@@ -297,13 +297,14 @@ letter-spacing: 0.02em;
     padding-left: 16px;
     margin: 0px auto;
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
     align-items: center;
-    column-gap: 330px;
   }
   .page-nav{
-    column-gap: 76px;
+  justify-content: normal;
+  column-gap: 72px;
   }
+
   .contact-list{
     display:flex;
     gap: 40px;
