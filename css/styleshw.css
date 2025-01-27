@@ -75,10 +75,8 @@ body{
 
 }
 .logo-color{
-  font-weight: 700:;
+  font-weight: 700;
   color: #2e2f42;
-} 
-
 
 }
 /* -----------------------------mob vers------------------------------- */
@@ -289,16 +287,19 @@ color: #434455;
 
 @media screen and (min-width:1158px){
   .container{
-    max-width: 1128px;
-    padding-right: 15px;
-    padding-left: 15px;
+    max-width: 1158px;
+    padding-right: 16px;
+    padding-left: 16px;
     margin: 0px auto;
-  }
-  .page-header-container{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    column-gap: 300px;
+    column-gap: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .page-header{
+    padding: 0px 0; 
   }
   .page-nav{
     column-gap: 76px;
@@ -312,8 +313,6 @@ color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
-    padding-bottom: 24px;
   }
 }
 
@@ -405,11 +404,8 @@ padding-bottom: 48px;
   .title-back .container{
     height: 600px;
 }
-  .title{
-    margin-bottom:48px;
-  }
   .title-back{
-  margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 }
   
@@ -1553,5 +1549,6 @@ color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 }
