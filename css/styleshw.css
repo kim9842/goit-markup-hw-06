@@ -66,18 +66,13 @@ body{
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4D5AE5;
-}
-  .page-header-container{
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
 
 }
 .logo-color{
   font-weight: 700;
   color: #2e2f42;
-
 }
+  }
 /* -----------------------------mob vers------------------------------- */
 
 
@@ -94,6 +89,13 @@ body{
   }
   .title-back{
     padding-bottom: 96px;
+  }
+
+  .page-header-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 16px 0px;
   }
 
 /* ===============mob modal============== */
@@ -236,7 +238,6 @@ color: #434455;
   .contact{
     display: flex;
     font-style: normal;
-    padding: 16px 0;
   }
   .nav-list{
     display: flex;
@@ -254,6 +255,7 @@ color: #434455;
     letter-spacing: 0.02em;
     color: #2e2f42;
     transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    padding: 24px 0;
   }
   .link:hover,
   .link.focus{
@@ -292,8 +294,6 @@ color: #434455;
     justify-content:space-between;
     align-items: center;
     column-gap: 332px;
-    padding-top: 24px;
-    padding-bottom: 24px;
   }
   .page-nav{
     column-gap: 76px;
