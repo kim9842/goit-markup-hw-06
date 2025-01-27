@@ -291,7 +291,7 @@ letter-spacing: 0.02em;
 
 
 @media screen and (min-width:1158px){
-  .container{
+  .container {
     max-width: 1158px;
     padding-right: 16px;
     padding-left: 16px;
@@ -328,8 +328,7 @@ letter-spacing: 0.02em;
   background-size:cover; 
   background-repeat:no-repeat;
   background-position: center;
-  padding-top:72px;
-  padding-bottom: 72px;
+  padding:72px 0;
 }
 .container-hero{
   max-width: 320px;
